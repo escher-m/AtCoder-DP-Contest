@@ -4,8 +4,8 @@ using namespace std;
 ll findmaxval(ll weight[],ll value[], int w, int n)
 {
 	ll maxval[n+1][w+1];
-	//dp[x][y]=max value that can be generated from 1 to x items that weigh a max of y kg.
-	// answer=dp[n][w]
+	//maxval[x][y]=max value that can be generated from 1 to x items that weigh a max of y kg.
+	// answer=maxval[n][w]
 	for(int i=0;i<=n;i++)
 	{
 		for(int j=0;j<=w;j++)
