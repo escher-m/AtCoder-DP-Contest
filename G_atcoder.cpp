@@ -2,7 +2,7 @@
 using namespace std;
 #define ll long long 
 
-const int M= 1e5+10;
+const int M= 1e5+1;
 int dp[M];
 int visited[M]={0};
 
