@@ -34,8 +34,8 @@ int main()
 		adj[x].push_back(y);
 	}
 	//Idea: Use DFS on every vertex and store the max path from that vertex. return the max.
-	//array dp[V] to stores max length
-	//answer: max element in dp
+	//array path[V] stores max length
+	//answer: max element in path
     int ans=0;
     int path[n];
 	for(int i=0;i<n;i++)
